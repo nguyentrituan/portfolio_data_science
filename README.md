@@ -3,7 +3,7 @@
 I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories. I love chatting about analytics, besides sometimes I like telling a logically humorous story with many funny situations. In my spare time, I go trekking as a good way to challenge myself. 
 
 # PORTFOLIO DATA SCIENCE 
-## A/B Testing
+## I. A/B Testing
 
 In my experience working at leading tech companies, I've noticed that A/B testing is widely used, especially in companies and industries with large user bases such as e-commerce and gaming.
 
@@ -18,7 +18,7 @@ Files consist of the following parts:
 ![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/59bb93a6-e043-41b7-ba45-e98128be6b99)
 
 
-## Kaggle Competition - Prediction Interval for Birth Weight
+## II. Kaggle Competition - Prediction Interval for Birth Weight
 
 I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard (Team: Triple Tiger).
 
@@ -37,7 +37,7 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 ![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/e17796bd-3fc9-48fc-bd90-fbfedf4a7793)
 
 
-## Machine Learning for Marketing
+## III. Machine Learning for Marketing
 
 This is the course for which I was certified at Trung Tâm Tin Học - Đại học Khoa học Tự nhiên TPHCM. The course provided me with foundational knowledge of Machine Learning, with examples closely related to Marketing.
 
@@ -46,7 +46,7 @@ In this GitHub repository, I will present the code taught in the program, with s
 In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/)
 
 
-## Segmentation
+## IV. Segmentation
 
 ### Concepts
 
@@ -108,7 +108,7 @@ Among numerous other clustering algorithms, we introduce the k-means clustering 
 	- `Elbow Method`: We try different value of `k` and plot the metrics of performance (Total Distance of S-coef), graphically define the Elbow Points -> Optional `k`
 	- Though sometimes, due to business acumen or practical reasons of execution, we will choose a desired `k` (for example, by method, k=10 is optimal, but execute 10 segments are not practical for business, we might choose 5-6 segments)
 
-## Refactor Notebook
+## V. Refactor Notebook
 
 After using a notebook to solve a specific problem such as segmentation, A/B testing, anomaly detection, etc., if we want to automate it by setting up a pipeline and scheduling it to run automatically, we need to refactor the notebook.
 
