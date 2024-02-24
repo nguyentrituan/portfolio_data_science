@@ -1,9 +1,13 @@
 # PORTFOLIO DATA SCIENCE 
 # A/B Testing
 
-Trong quá trình làm việc ở các Cty Tech như E-commerce hay mảng gaming, đặc biệt là cty có user base lớn thì A/B testing là phươgn pháp vô cùng quan trọng
+Trong quá trình làm việc ở các công ty Leading Tech company in Viet Nam, tôi thấy A/B testing được dùng rất nhiều, đặc biệt là đối với công ty, ngành có User Base lớn như E-commerce, Gaming.
 
-A/B testing is a common problem in businesses, especially when dealing with a large user base and the risk associated with implementing a new feature or changing existing app logic. Therefore, it is necessary to conduct A/B testing to both control risks and evaluate the impact in order to make informed decisions about whether to roll out a feature or not Link gitbook: https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/
+Tại sao phải dùng nó ? Với lượng user base lớn các công ty không thể apply feature 
+
+Therefore, it is necessary to conduct A/B testing to both control risks and evaluate the impact in order to make informed decisions about whether to roll out a feature or not Link gitbook: 
+
+[Link text](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/)
 
 Files consists of the following parts:
 - Frequentist Code
