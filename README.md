@@ -41,10 +41,10 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 
 This is the course for which I was certified at the Computer Center of the University of Natural Sciences. The course provided me with foundational knowledge of Machine Learning, with examples closely related to Marketing.
 
-In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms
+In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to
 
 
 ## Segmentation
 
-Bao gồm 3 cách segmentation gồm K-means, Cohort view và RFM
+
 
