@@ -20,7 +20,7 @@ Files consist of the following parts:
 
 ## Kaggle Competition - Prediction Interval for Birth Weight
 
-I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard.
+I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard (Team: Triple Tiger).
 
 Kaggle Competition Info https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/overview
 
@@ -39,9 +39,10 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 
 ## Machine Learning for Marketing
 
-Đây là khoá học mà tôi được cấp chứng chỉ tại Trung Tâm tin học Đại học Khoa học tự nhiên
+This is the course for which I was certified at the Computer Center of the University of Natural Sciences. The course provided me with foundational knowledge of Machine Learning, with examples closely related to Marketing.
 
-Nó bảo gồm rất nhiều Model về Machine Learning, đặc biệt có chứa phần thi tốt nghiệp của tôi trong khoá học
+In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms
+
 
 ## Segmentation
 
