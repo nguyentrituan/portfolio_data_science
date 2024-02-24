@@ -116,7 +116,21 @@ After using a notebook to solve a specific problem such as segmentation, A/B tes
 
 ## VI. Recommedation
 
-Basket Analysis
+Association Rules Mining / Basket Analysis
+
+Basket Analysis (BA) is a powerful technique to mining the assocation between items within a basket, the result could be communicated as **Frequently Bought Together** items, that is used to:
+
+- Create the bundle of items
+- Recommend other items to add to basket (as "Frequently Bought Togther")
+
+BA is recommendation algorithm, but not personalization, as it is item-based, and not personalize the recommend by user.
+
+**The interesting of this hands-on**:
+
+- Instead of using any available public dataset, we will generate the synthetic data, by that:
+    - We understand deeply the data structure used for this model
+    - We can validate if the output make sense or not
+- Instead of using the existing Python package (such as: `mlxtend.frequent_patterns`), we will code the logic of Apriori Algorithm by our own, _it is the best way to understand the model in deeper level_
 
    
 
