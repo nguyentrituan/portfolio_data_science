@@ -1,9 +1,9 @@
-## WELCOME 👋🏼
+# WELCOME 👋🏼
 
 I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories.
 
 # PORTFOLIO DATA SCIENCE 
-# A/B Testing
+## A/B Testing
 
 In my experience working at leading tech companies, I've noticed that A/B testing is widely used, especially in companies and industries with large user bases such as e-commerce and gaming.
 
@@ -18,7 +18,7 @@ Files consist of the following parts:
 ![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/59bb93a6-e043-41b7-ba45-e98128be6b99)
 
 
-# Kaggle Competition - Prediction Interval for Birth Weight
+## Kaggle Competition - Prediction Interval for Birth Weight
 
 I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard.
 
