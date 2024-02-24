@@ -1,17 +1,15 @@
 # PORTFOLIO DATA SCIENCE 
 # A/B Testing
 
-Trong quá trình làm việc ở các công ty Leading Tech company in Viet Nam, tôi thấy A/B testing được dùng rất nhiều, đặc biệt là đối với công ty, ngành có User Base lớn như E-commerce, Gaming.
+In my experience working at leading tech companies, I've noticed that A/B testing is widely used, especially in companies and industries with large user bases such as e-commerce and gaming.
 
-Tại sao phải dùng nó ? Với lượng user base lớn các công ty không thể apply feature 
+Why use A/B testing? With a large user base, companies cannot simply apply any feature they want, as doing so may carry the risk of hurting user experience and subsequently affecting the lifetime value of users. Therefore, A/B testing is necessary to control risks. Instead of applying changes to the entire user base, companies can apply them to a small group, for example, about 10% of users, and then use statistical methods to determine if there is a statistically significant difference between the control group and the variants.
 
-Therefore, it is necessary to conduct A/B testing to both control risks and evaluate the impact in order to make informed decisions about whether to roll out a feature or not Link gitbook: 
+In terms of methodology, I have documented it in this Gitbook link [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/). On GitHub, I provide code for both frequentist and Bayesian approaches in A/B testing.
 
-[Link text](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/)
-
-Files consists of the following parts:
-- Frequentist Code
-- Bayesian Code
+Files consist of the following parts:
+1. Frequentist Code
+2. Bayesian Code
 
 # Kaggle Competition - Prediction Interval
 
