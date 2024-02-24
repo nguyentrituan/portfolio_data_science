@@ -43,7 +43,7 @@ This is the course for which I was certified at Trung Tâm Tin Học - Đại h�
 
 In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to.
 
-In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/
+In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/)
 
 
 ## Segmentation
@@ -81,7 +81,7 @@ RFM segments customers by 3 important features:
 
 #### 3. KMeans clustering
 
-##### **Clustering**
+##### Clustering
 
 The tasks of combining RFM Scores could become very complex (with increasing numbers of combinations). Especially when, we need to combine them in the way that we can have meaningful segments to take action. Machine Learning techniques come to place. 
 
@@ -90,7 +90,7 @@ The tasks of combining RFM Scores could become very complex (with increasing num
 - Clustering could applied with R, F, M as inputs, or it could take more attributes of information about the customers
 - Clustering is especially useful when many customer attributes, that make the combination of all possible segments is high, and the problem becomes complex.
 
-###### **K-means Algorithms**
+###### K-means Algorithms
 Among numerous other clustering algorithms, we introduce the k-means clustering algorithms.
 
 - K-means algorithms splits the records in the data into a pre-defined number of clusters (`k`)
@@ -107,6 +107,12 @@ Among numerous other clustering algorithms, we introduce the k-means clustering 
 		- Measure by Total Distance - `Total Within Sum of Square`: distance between data points and the centroid within the cluster
 	- `Elbow Method`: We try different value of `k` and plot the metrics of performance (Total Distance of S-coef), graphically define the Elbow Points -> Optional `k`
 	- Though sometimes, due to business acumen or practical reasons of execution, we will choose a desired `k` (for example, by method, k=10 is optimal, but execute 10 segments are not practical for business, we might choose 5-6 segments)
+
+## Refactor Notebook
+
+## Overview about the refactoring process
+![](./image/refactor-notebook-diagram.webp)
+   
 
 
 
