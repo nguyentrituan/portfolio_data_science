@@ -41,10 +41,24 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 
 This is the course for which I was certified at the Computer Center of the University of Natural Sciences. The course provided me with foundational knowledge of Machine Learning, with examples closely related to Marketing.
 
-In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to
+In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to.
+
+In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/
 
 
 ## Segmentation
+
+### Concepts
+
+One key go-to idea to uncover customer behavior is to spliting them into smaller groups that within each group they are more similar to each other.
+That make the insights is cleared, comparing to doing analysis on the whole population. 
+
+You will notice that they have done it by multiple ways in our analytics works: splitting customers by geo, app, level of values, etc.
+In this hands-on, we try 3 techniques, serving that purpose: 
+
+1. Cohort 
+2. RFM segmentation 
+3. KMeans clustering
 
 
 
