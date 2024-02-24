@@ -1,11 +1,6 @@
-## Welcome 👋🏼
+## WELCOME 👋🏼
 
-I’m a Data Insight Analyst based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in economics and business management, I help data-driven companies tell actionable stories. I love chatting about women leadership and analytics. In my spare time, I do embroidery and coloring. 
-
-
-
-
-
+I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories.
 
 # PORTFOLIO DATA SCIENCE 
 # A/B Testing
