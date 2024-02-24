@@ -16,12 +16,14 @@ Files consist of the following parts:
 
 # Kaggle Competition - Prediction Interval for Birth Weight
 
-I have a change to participate in Kaggle Competion, and we được top 10 trong bảng xếp hạng leaderboard.
+I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard.
 
 Kaggle Competition Info https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/overview
 
-Trong cuộc thi tôi đã sử dụng nhiều thuật tonas khác nhau từ đơn giản đến phức tạp để tune model các model gồm:
-KNN, Linear Regression, Xgboost Regressor, Decision Tree, Random Forrest. Kết quả cho thấy Model về Xgboost cho kết quả tốt nhất.
+Problem: In many ML contests involving regression it is not unusual to focus on what are called point predictions (expectation values) 𝑌̂  However, in this competition we are uninterested in the expectation value, but rather in producing a prediction interval, 𝐶𝛼^ . Indeed prediction intervals are often of greater practical interest than point predictions, which only form part of the story. In this competition we shall be predicting the intervals associated with birth weights.
+Goal: To obtain the minimum average prediction interval.
+
+In the competition, I experimented with various techniques ranging from simple to complex to tune models, including KNN, Linear Regression, XGBoost Regressor, Decision Tree, and Random Forest. The results showed that the XGBoost model performed the best.
 
 Note:
 XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now. XGBoost and Gradient Boosting Machines (GBMs) are both ensemble tree methods that apply the principle of boosting weak learners (CARTs generally) using the gradient descent architecture. However, XGBoost improves upon the base GBM framework through systems optimization and algorithmic enhancements.
