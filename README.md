@@ -83,19 +83,15 @@ RFM segments customers by 3 important features:
 
 **Clustering**
 
-> The tasks of combining RFM Scores could become very complex (with increasing numbers of combinations). Especially when, we need to combine them in the way that we can have meaningful segments to take action. Machine Learning techniques come to place. 
-
+The tasks of combining RFM Scores could become very complex (with increasing numbers of combinations). Especially when, we need to combine them in the way that we can have meaningful segments to take action. Machine Learning techniques come to place. 
 
 - Input any customer features we have, and find out different clusters can be obtained from the data
 - The process is by Machine Learning (`Unsupervised`). We can find traits of customer segments by analyzing the characteristics of the clusters
 - Clustering could applied with R, F, M as inputs, or it could take more attributes of information about the customers
-- Clustering is especially useful when many customer attributes, that make the combination of all possible segments is high, and the problem becomes complex
-
-> Discussion: How is a good customer segmentation?
-
+- Clustering is especially useful when many customer attributes, that make the combination of all possible segments is high, and the problem becomes complex.
 
 **K-means Algorithms**
-> Among numerous other clustering algorithms, we introduce the k-means clustering algorithms.
+Among numerous other clustering algorithms, we introduce the k-means clustering algorithms.
 
 - K-means algorithms splits the records in the data into a pre-defined number of clusters (`k`)
 	- Data points within a cluster are "close" to each others -> Similar
