@@ -110,6 +110,8 @@ Among numerous other clustering algorithms, we introduce the k-means clustering 
 
 ## Refactor Notebook
 
+After using a notebook to solve a specific problem such as segmentation, A/B testing, anomaly detection, etc., if we want to automate it by setting up a pipeline and scheduling it to run automatically, we need to refactor the notebook.
+
 ![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/6b42efcd-60fe-4af7-87b3-3a0a8404fdff)
 
    
