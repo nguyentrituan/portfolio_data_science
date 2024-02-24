@@ -56,9 +56,31 @@ That make the insights is cleared, comparing to doing analysis on the whole popu
 You will notice that they have done it by multiple ways in our analytics works: splitting customers by geo, app, level of values, etc.
 In this hands-on, we try 3 techniques, serving that purpose: 
 
-1. Cohort 
-2. RFM segmentation 
-3. KMeans clustering
+#### 1. Cohort
+
+We start with **Cohort analysis**, we commonly segment customers by the date they onboard with the app/products, 
+with the assumption that each snapshot of time, we acquire a group of customers (as a cohort). 
+The product offerings and marketing strategies are the same, so we expect customers in the same cohort are more or less comparable. 
+
+In fact, cohorts is not necessarily defined as the time of acquiring customers, but other given factors that make the group of customers more similar.
+The cohort by the starting time of customers give a view of how the product evolve over time, and how the customer base shift over time.
+ 
+
+#### 2. RFM Model
+
+In the topic of Segmentation, we will introduce the RFM model, which is a popular model in marketing and customer segmentation for determining Customer Value (CV).
+
+
+What's R, F, M?
+
+RFM segments customers by 3 important features:
+
+1. `Recency`: to measure how recent the last interaction with a customer
+2. `Frequency`: how frequent a customer interact with the business
+3. `Monetary`: the monetary value a customer generate
+
+
+4. KMeans clustering
 
 
 
