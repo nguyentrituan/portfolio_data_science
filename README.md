@@ -1,6 +1,6 @@
 # WELCOME 👋🏼
 
-I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories.
+I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories. I love chatting about analytics, besides sometimes I like telling a logically humorous story with many funny situations. In my spare time, I go trekking as a good way to challenge myself. 
 
 # PORTFOLIO DATA SCIENCE 
 ## A/B Testing
