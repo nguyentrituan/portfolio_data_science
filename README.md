@@ -114,6 +114,10 @@ After using a notebook to solve a specific problem such as segmentation, A/B tes
 
 ![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/6b42efcd-60fe-4af7-87b3-3a0a8404fdff)
 
+## VI. Recommedation
+
+Basket Analysis
+
    
 
 
