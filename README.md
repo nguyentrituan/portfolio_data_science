@@ -21,8 +21,12 @@ I have a change to participate in Kaggle Competion, and we được top 10 trong
 Kaggle Competition Info https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/overview
 
 Trong cuộc thi tôi đã sử dụng nhiều thuật tonas khác nhau từ đơn giản đến phức tạp để tune model các model gồm:
-KNN, Linear Regression, Xgboost Regressor, Decision Tree, Random Forrest, Quantile Regression để predict birth weight. Kết quả là model Quantile Regression cho kết quả tốt nhất
+KNN, Linear Regression, Xgboost Regressor, Decision Tree, Random Forrest. Kết quả cho thấy Model về Xgboost cho kết quả tốt nhất.
 
+Note:
+XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now. XGBoost and Gradient Boosting Machines (GBMs) are both ensemble tree methods that apply the principle of boosting weak learners (CARTs generally) using the gradient descent architecture. However, XGBoost improves upon the base GBM framework through systems optimization and algorithmic enhancements.
+
+![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/e17796bd-3fc9-48fc-bd90-fbfedf4a7793)
 
 
 # Machine Learning for Marketing
