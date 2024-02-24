@@ -79,8 +79,38 @@ RFM segments customers by 3 important features:
 2. `Frequency`: how frequent a customer interact with the business
 3. `Monetary`: the monetary value a customer generate
 
+#### 3. KMeans clustering
 
-4. KMeans clustering
+**Clustering**
+
+> The tasks of combining RFM Scores could become very complex (with increasing numbers of combinations). Especially when, we need to combine them in the way that we can have meaningful segments to take action. Machine Learning techniques come to place. 
+
+
+- Input any customer features we have, and find out different clusters can be obtained from the data
+- The process is by Machine Learning (`Unsupervised`). We can find traits of customer segments by analyzing the characteristics of the clusters
+- Clustering could applied with R, F, M as inputs, or it could take more attributes of information about the customers
+- Clustering is especially useful when many customer attributes, that make the combination of all possible segments is high, and the problem becomes complex
+
+> Discussion: How is a good customer segmentation?
+
+
+**K-means Algorithms**
+> Among numerous other clustering algorithms, we introduce the k-means clustering algorithms.
+
+- K-means algorithms splits the records in the data into a pre-defined number of clusters (`k`)
+	- Data points within a cluster are "close" to each others -> Similar
+- How? 
+	- Find the centroid (`mean`) of clusters
+	- Minimize the distance between data points and the centroid within the clusters
+- Need to decide `k` beforehand?
+	- Back to the question: How we define a good segmentation/clustering?
+		- How close the data points within the same cluter, compare to the distance with other clusters
+		- Measure by `Silhouette Coefficient` (S-coef)
+			- Range from `-1` to `1`
+			- Closer to `1` -> Better
+		- Measure by Total Distance - `Total Within Sum of Square`: distance between data points and the centroid within the cluster
+	- `Elbow Method`: We try different value of `k` and plot the metrics of performance (Total Distance of S-coef), graphically define the Elbow Points -> Optional `k`
+	- Though sometimes, due to business acumen or practical reasons of execution, we will choose a desired `k` (for example, by method, k=10 is optimal, but execute 10 segments are not practical for business, we might choose 5-6 segments)
 
 
 
