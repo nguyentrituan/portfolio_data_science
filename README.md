@@ -11,6 +11,9 @@ Files consist of the following parts:
 1. Frequentist Code
 2. Bayesian Code
 
+![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/59bb93a6-e043-41b7-ba45-e98128be6b99)
+
+
 # Kaggle Competition - Prediction Interval
 
 I have a change to participate in Kaggle Competion, and we được top 10 trong bảng xếp hạng leaderboard.
