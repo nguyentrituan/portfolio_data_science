@@ -1,0 +1,138 @@
+# WELCOME 👋🏼
+
+I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories. I love chatting about analytics, besides sometimes I like telling a logically humorous story with many funny situations. In my spare time, I go trekking as a good way to challenge myself. 
+
+# PORTFOLIO DATA SCIENCE 
+## I. A/B Testing
+
+In my experience working at leading tech companies, I've noticed that A/B testing is widely used, especially in companies and industries with large user bases such as e-commerce and gaming.
+
+Why use A/B testing? With a large user base, companies cannot simply apply any feature they want, as doing so may carry the risk of hurting user experience and subsequently affecting the lifetime value of users. Therefore, A/B testing is necessary to control risks. Instead of applying changes to the entire user base, companies can apply them to a small group, for example, about 10% of users, and then use statistical methods to determine if there is a statistically significant difference between the control group and the variants.
+
+In terms of methodology, I have documented it in this [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/). On GitHub, I provide code for both frequentist and Bayesian approaches in A/B testing.
+
+Files consist of the following parts:
+1. Frequentist Code
+2. Bayesian Code
+
+![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/59bb93a6-e043-41b7-ba45-e98128be6b99)
+
+
+## II. Kaggle Competition - Prediction Interval for Birth Weight
+
+I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard (Team: Triple Tiger).
+
+Kaggle Competition Info https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/overview
+
+**Problem:** 
+In many ML contests involving regression it is not unusual to focus on what are called point predictions (expectation values) 𝑌̂  However, in this competition we are uninterested in the expectation value, but rather in producing a prediction interval, 𝐶𝛼^ . Indeed prediction intervals are often of greater practical interest than point predictions, which only form part of the story. In this competition we shall be predicting the intervals associated with birth weights.
+**Goal:** To obtain the minimum average prediction interval.
+
+**Solution:**
+In the competition, I experimented with various techniques ranging from simple to complex to tune models, including KNN, Linear Regression, XGBoost Regressor, Decision Tree, and Random Forest. The results showed that the XGBoost model performed the best.
+
+Note:
+XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now. XGBoost and Gradient Boosting Machines (GBMs) are both ensemble tree methods that apply the principle of boosting weak learners (CARTs generally) using the gradient descent architecture. However, XGBoost improves upon the base GBM framework through systems optimization and algorithmic enhancements.
+
+![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/e17796bd-3fc9-48fc-bd90-fbfedf4a7793)
+
+
+## III. Machine Learning for Marketing
+
+This is the course for which I was certified at Trung Tâm Tin Học - Đại học Khoa học Tự nhiên TPHCM. The course provided me with foundational knowledge of Machine Learning, with examples closely related to Marketing.
+
+In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to.
+
+In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/)
+
+
+## IV. Segmentation
+
+### Concepts
+
+One key go-to idea to uncover customer behavior is to spliting them into smaller groups that within each group they are more similar to each other.
+That make the insights is cleared, comparing to doing analysis on the whole population. 
+
+You will notice that they have done it by multiple ways in our analytics works: splitting customers by geo, app, level of values, etc.
+In this hands-on, we try 3 techniques, serving that purpose: 
+
+#### 1. Cohort
+
+We start with **Cohort analysis**, we commonly segment customers by the date they onboard with the app/products, 
+with the assumption that each snapshot of time, we acquire a group of customers (as a cohort). 
+The product offerings and marketing strategies are the same, so we expect customers in the same cohort are more or less comparable. 
+
+In fact, cohorts is not necessarily defined as the time of acquiring customers, but other given factors that make the group of customers more similar.
+The cohort by the starting time of customers give a view of how the product evolve over time, and how the customer base shift over time.
+ 
+
+#### 2. RFM Model
+
+In the topic of Segmentation, we will introduce the RFM model, which is a popular model in marketing and customer segmentation for determining Customer Value (CV).
+
+
+##### What's R, F, M?
+
+RFM segments customers by 3 important features:
+
+1. `Recency`: to measure how recent the last interaction with a customer
+2. `Frequency`: how frequent a customer interact with the business
+3. `Monetary`: the monetary value a customer generate
+
+#### 3. KMeans clustering
+
+##### Clustering
+
+The tasks of combining RFM Scores could become very complex (with increasing numbers of combinations). Especially when, we need to combine them in the way that we can have meaningful segments to take action. Machine Learning techniques come to place. 
+
+- Input any customer features we have, and find out different clusters can be obtained from the data
+- The process is by Machine Learning (`Unsupervised`). We can find traits of customer segments by analyzing the characteristics of the clusters
+- Clustering could applied with R, F, M as inputs, or it could take more attributes of information about the customers
+- Clustering is especially useful when many customer attributes, that make the combination of all possible segments is high, and the problem becomes complex.
+
+###### K-means Algorithms
+Among numerous other clustering algorithms, we introduce the k-means clustering algorithms.
+
+- K-means algorithms splits the records in the data into a pre-defined number of clusters (`k`)
+	- Data points within a cluster are "close" to each others -> Similar
+- How? 
+	- Find the centroid (`mean`) of clusters
+	- Minimize the distance between data points and the centroid within the clusters
+- Need to decide `k` beforehand?
+	- Back to the question: How we define a good segmentation/clustering?
+		- How close the data points within the same cluter, compare to the distance with other clusters
+		- Measure by `Silhouette Coefficient` (S-coef)
+			- Range from `-1` to `1`
+			- Closer to `1` -> Better
+		- Measure by Total Distance - `Total Within Sum of Square`: distance between data points and the centroid within the cluster
+	- `Elbow Method`: We try different value of `k` and plot the metrics of performance (Total Distance of S-coef), graphically define the Elbow Points -> Optional `k`
+	- Though sometimes, due to business acumen or practical reasons of execution, we will choose a desired `k` (for example, by method, k=10 is optimal, but execute 10 segments are not practical for business, we might choose 5-6 segments)
+
+## V. Refactor Notebook
+
+After using a notebook to solve a specific problem such as segmentation, A/B testing, anomaly detection, etc., if we want to automate it by setting up a pipeline and scheduling it to run automatically, we need to refactor the notebook.
+
+![image](https://github.com/nguyentrituan/portfolio_data_science/assets/121095339/6b42efcd-60fe-4af7-87b3-3a0a8404fdff)
+
+## VI. Recommedation
+
+Association Rules Mining / Basket Analysis
+
+Basket Analysis (BA) is a powerful technique to mining the assocation between items within a basket, the result could be communicated as **Frequently Bought Together** items, that is used to:
+
+- Create the bundle of items
+- Recommend other items to add to basket (as "Frequently Bought Togther")
+
+BA is recommendation algorithm, but not personalization, as it is item-based, and not personalize the recommend by user.
+
+**The interesting of this hands-on**:
+
+- Instead of using any available public dataset, we will generate the synthetic data, by that:
+    - We understand deeply the data structure used for this model
+    - We can validate if the output make sense or not
+- Instead of using the existing Python package (such as: `mlxtend.frequent_patterns`), we will code the logic of Apriori Algorithm by our own, _it is the best way to understand the model in deeper level_
+
+   
+
+
+
