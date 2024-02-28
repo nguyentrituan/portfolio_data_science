@@ -1,6 +1,6 @@
-# Hands-on 01: Online-Retail analytics pipeline
+# Hands-on: Online-Retail analytics pipeline
 
-In next 2 sessions (4 hours in total), we will sit together and hands-on to put together what we have learnt to build a "workable" analytics pipeline. 
+We will sit together and hands-on to put together what we have learnt to build a "workable" analytics pipeline. 
 Besides, we learn by hands-on with several analytics techniques: Cohort analysis, RFM analysis, and Clustering.
 
 
