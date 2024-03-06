@@ -20,7 +20,7 @@ Files consist of the following parts:
 
 ## II. Kaggle Competition - Prediction Interval for Birth Weight
 
-I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 10 on the leaderboard (Team: Triple Tiger).
+I have had the opportunity to participate in a Kaggle competition, and we ranked in the top 15 on the leaderboard (Team: Triple Tiger) [Leaderboard](https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/leaderboard).
 
 Kaggle Competition Info https://www.kaggle.com/competitions/prediction-interval-competition-i-birth-weight/overview
 
@@ -43,7 +43,7 @@ This is the course for which I was certified at Trung Tâm Tin Học - Đại h�
 
 In this GitHub repository, I will present the code taught in the program, with simple and understandable examples that can help us better understand various machine learning algorithms. I will also present the final graduation project of the program for you to refer to.
 
-In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization. [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/ig7BlfmYLvYH7dyApFR1/)
+In addition, to help you better understand how machine learning algorithms work, I have documented how machine learning runs on Excel to provide a clearer visualization (included later). 
 
 
 ## IV. Segmentation
