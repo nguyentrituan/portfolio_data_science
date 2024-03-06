@@ -2,7 +2,7 @@
 
 I’m a Data Analyst (Ex-Business Intelligence Analyst) based in Ho Chi Minh City with a passion for discovering **customer/product insights** through data analytics. Leveraging my background in International Business Economics, I help data-driven companies tell actionable stories. I love chatting about analytics, besides sometimes I like telling a logically humorous story with many funny situations. In my spare time, I go trekking as a good way to challenge myself. 
 
-# PORTFOLIO DATA SCIENCE 
+# PORTFOLIO DATA SCIENCE (Beta version)
 ## I. A/B Testing
 
 In my experience working at leading tech companies, I've noticed that A/B testing is widely used, especially in companies and industries with large user bases such as e-commerce and gaming.
