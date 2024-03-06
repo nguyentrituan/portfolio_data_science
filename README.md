@@ -9,7 +9,7 @@ In my experience working at leading tech companies, I've noticed that A/B testin
 
 Why use A/B testing? With a large user base, companies cannot simply apply any feature they want, as doing so may carry the risk of hurting user experience and subsequently affecting the lifetime value of users. Therefore, A/B testing is necessary to control risks. Instead of applying changes to the entire user base, companies can apply them to a small group, for example, about 10% of users, and then use statistical methods to determine if there is a statistically significant difference between the control group and the variants.
 
-In terms of methodology, I have documented it in this [Gitbook Link](https://app.gitbook.com/o/VfRPaxLWrwVO1zxPDj2s/s/iggGa4mab2uKFxO1Zj5M/). On GitHub, I provide code for both frequentist and Bayesian approaches in A/B testing.
+In terms of methodology, I have documented it in gitbook (included later :D). On GitHub, I provide code for both frequentist and Bayesian approaches in A/B testing.
 
 Files consist of the following parts:
 1. Frequentist Code
