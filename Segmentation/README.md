@@ -1,20 +1,19 @@
-# Hands-on: Online-Retail analytics pipeline
+# Segmentation
 
-We will sit together and hands-on to put together what we have learnt to build a "workable" analytics pipeline. 
-Besides, we learn by hands-on with several analytics techniques: Cohort analysis, RFM analysis, and Clustering.
-
-
-## 🚩 Toolings
-
-- `dvc` to version and collaborate on datasets (raw, intermediate, metrics/insight layers)
-- `Python` + `Jupyter Notebook` to do analysis, visualization, and modeling
-- `git`: versioning code and collaborate
-- `elyra`: create an analytics workflow
+## Concepts
 
 
-## 🧬 Analytics techniques
+One key go-to idea to uncover customer behavior is to spliting them into smaller groups that within each group they are more similar to each other.That make the insights is cleared, comparing to doing analysis on the whole population. 
 
-- [Cohort analysis](../03-hands-on-01/01_OnlineRetail_Cohort.ipynb)
-- [RFM analysis](../03-hands-on-01/02_OnlineRetail_RFM.ipynb)
-- [K-means clustering](../03-hands-on-01/03_OnlineRetail_KMeans.ipynb)
+You will notice that they have done it by multiple ways in our analytics works: splitting customers by geo, app, level of values, etc.
+In this hands-on, we try 3 techniques, serving that purpose: 
+
+1. Cohort 
+2. RFM segmentation 
+3. KMeans clustering
+
+03 notebooks helps you to understand more three Analytics techniques to apply practise on your own datasets.
+
+
+
 
